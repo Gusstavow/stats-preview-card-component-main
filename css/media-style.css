@@ -1,0 +1,67 @@
+@media screen and (min-width: 501px) {
+    main {}
+
+    section#conteudo h1 {
+        margin-top: 40px;
+        text-align: left;
+        padding-left: 20px;
+        text-indent: 0px;
+        font-size: 2.2em;
+        
+    }
+
+    section#conteudo h1,
+    section#conteudo p {
+        margin-right: 40px;
+    }
+
+
+
+    div#container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 900px;
+        padding: 0px;
+        gap: 0px;
+    }
+
+
+    aside#img {
+        padding: 0px;
+        border-radius: 0px 10px 10px 0px;
+        
+        background: linear-gradient(to right,rgba(150, 5, 142, 0.425), rgba(114, 2, 77, 0.411),url(../images/image-header-desktop.jpg));
+
+        background-size: cover;
+        height: 357px;
+        width: 420px;
+
+
+    }
+
+    div.dados {
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+        margin-top: 20px;
+
+    }
+
+    section#conteudo {
+        padding: 10px;
+        width: 450px;
+
+        margin: auto;
+    }
+
+    
+
+    section#conteudo p.info {
+        text-align: left;
+        text-indent: 0px;
+        text-justify: inter-word;
+        
+    }
+}
